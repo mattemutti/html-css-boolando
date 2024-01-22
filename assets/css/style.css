@@ -1,58 +1,130 @@
-*{
+/* #region For ALL________________________________________________________________*/
+
+
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-:root{
-    --boolando-primary:#ff6900FF;
+:root {
+    --boolando-primary: #ff6900FF;
     --boolando-wite: #ffffffFF;
-    --boolando-bg-photo:  #e7e7e7FF;
+    --boolando-bg-photo: #e7e7e7FF;
     --boolando-warning: #ff0000FF;
     --boolando-green: #008000FF;
-    --boolando-text:#000000FF;
+    --boolando-text: #000000FF;
+}
+
+body {}
+
+/* #endregion For ALL________________________________________________________________*/
+
+
+/* #region Utility________________________________________________________________*/
+
+.no-link {
+    text-decoration: none;
+    color: var(--boolando-wite);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    height: 100%;
+
+}
+
+img {
+    width: 100%;
 }
 
 
-.header{
+/* #endregion Utility________________________________________________________________*/
+
+/* #region header________________________________________________________________*/
+
+
+.header {
     background-color: var(--boolando-primary);
     padding: 2rem;
-         
+
 }
 
-.nav{
+
+
+.nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.logo{
+.logo {
     width: 10%;
-    
 }
 
-
-
-
-
-.no-link{
+.no-link {
     text-decoration: none;
     color: var(--boolando-wite);
+}
+
+/* #endregion header________________________________________________________________*/
+
+/* #region main________________________________________________________________*/
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.capo1 {
+    height: 500px;
+    width: 400px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+
+}
+
+.photo {}
+
+.sconto {
+    position: absolute;
+    bottom: 1%;
+    background-color: var(--boolando-warning);
+    color: var(--boolando-wite);
+    padding: 0.25rem 0.25rem;
+}
+
+.info {
+    position: absolute;
+    left: 12%;
+    bottom: 1%;
+    background-color: var(--boolando-green);
+    color: var(--boolando-wite);
+    padding: 0.25rem 0.25rem;
+}
+
+.heart{
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    background-color: var(--boolando-wite);
+    padding: 1rem 1rem;
     
 
 }
 
-
-
-
-body{
-    
+.line-through{
+    text-decoration: line-through;
 }
 
-.container{
-    width: 80%;
-    margin: auto;
-    height: 100%;
-    
+.text-red{
+    color: var(--boolando-warning);
 }
-   
+
+
+/* #endregion main________________________________________________________________*/
