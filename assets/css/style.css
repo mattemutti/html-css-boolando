@@ -1,9 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --boolando-primary:#ff6900FF;
+    --boolando-wite: #ffffffFF;
+    --boolando-bg-photo:  #e7e7e7FF;
+    --boolando-warning: #ff0000FF;
+    --boolando-green: #008000FF;
+    --boolando-text:#000000FF;
+}
+
+
+.header{
+    background-color: var(--boolando-primary);
+    padding: 2rem;
+         
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    width: 10%;
+    
+}
+
+
+
+
+
+.no-link{
+    text-decoration: none;
+    color: var(--boolando-wite);
+    
+
+}
+
+
+
 
 body{
     
 }
 
 .container{
+    width: 80%;
+    margin: auto;
+    height: 100%;
     
 }
    
