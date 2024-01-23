@@ -147,6 +147,10 @@ img {
     left: 0;
 }
 
+.heart-red:hover .heart{
+    color: var(--boolando-warning);
+}
+
 /* #endregion main________________________________________________________________*/
 
 
