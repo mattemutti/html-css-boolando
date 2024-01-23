@@ -37,7 +37,8 @@ body {}
 }
 
 img {
-    width: 100%;
+    width: 300px;
+    
 }
 
 .disp-flex {
@@ -82,13 +83,15 @@ img {
 
 
 .capo1 {
-    
+    display: flex;
+    justify-content: center;  
     
 }
 
 .photo {
     position: relative;
-    width: 60%;
+    width: 100%;
+    margin: 2rem;
 }
 
 .width-60{
@@ -132,3 +135,21 @@ img {
 
 
 /* #endregion main________________________________________________________________*/
+
+
+/* #region footer________________________________________________________________*/
+
+footer{
+    background-color: var(--boolando-text);
+    padding: 2rem;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    
+    color: var(--boolando-wite);
+}
+
+
+/* #endregion footer________________________________________________________________*/
