@@ -40,6 +40,14 @@ img {
     width: 100%;
 }
 
+.disp-flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem;
+
+}
+
 
 /* #endregion Utility________________________________________________________________*/
 
@@ -51,8 +59,6 @@ img {
     padding: 2rem;
 
 }
-
-
 
 .nav {
     display: flex;
@@ -73,27 +79,25 @@ img {
 
 /* #region main________________________________________________________________*/
 
-.main {
-    display: flex;
-    justify-content: center;
-}
+
 
 .capo1 {
-    height: 500px;
-    width: 400px;
-    background-color: red;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-
-
+    
+    
 }
 
-.photo {}
+.photo {
+    position: relative;
+    width: 60%;
+}
+
+.width-60{
+    width: 60%;
+}
 
 .sconto {
     position: absolute;
-    bottom: 1%;
+    bottom: 20%;
     background-color: var(--boolando-warning);
     color: var(--boolando-wite);
     padding: 0.25rem 0.25rem;
@@ -101,8 +105,8 @@ img {
 
 .info {
     position: absolute;
-    left: 12%;
-    bottom: 1%;
+    left: 20%;
+    bottom: 20%;
     background-color: var(--boolando-green);
     color: var(--boolando-wite);
     padding: 0.25rem 0.25rem;
