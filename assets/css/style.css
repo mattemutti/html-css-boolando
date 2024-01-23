@@ -63,7 +63,7 @@ img {
 
 .nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -95,7 +95,7 @@ img {
 }
 
 .width-60{
-    width: 60%;
+    max-width: 60%;
 }
 
 .sconto {
@@ -133,6 +133,19 @@ img {
     color: var(--boolando-warning);
 }
 
+.photo-on{
+    position: relative;
+}
+.photo:hover .img-1b{
+    display: block;
+}
+
+.img-1b{
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+}
 
 /* #endregion main________________________________________________________________*/
 
